@@ -26,7 +26,7 @@ Workspace riset telah diinisialisasi secara modular dengan pemisahan implementas
 ## 2. Validasi Semantik Spesifikasi Resmi SIEVE & Analisis Varian
 
 ### 2.1 Kesesuaian dengan Spesifikasi Paper NSDI '24
-*(Catatan: Akses jaringan langsung ke `raw.githubusercontent.com` tidak tersedia di dalam sandbox eksekusi, sehingga validasi dilakukan terhadap spesifikasi resmi algoritma SIEVE pada Zhang et al., NSDI '24.)*
+*(Pembaruan pasca-Tahap 1: validasi konformansi langsung baris-per-baris terhadap kode sumber C resmi `1a1a11a/libCacheSim` commit `4b66d97` — `Sieve.c:126-245` dan `cache.c:321-326` — telah dilakukan dan mengonfirmasi kesesuaian semantik pointer **100%**; lihat [`libcachesim_conformance.md`](file:///d:/cache-anomalies/results/libcachesim_conformance.md).)*
 
 Kedua implementasi ([`sieve.py`](file:///d:/cache-anomalies/sim/sieve.py) dan [`sieve.go`](file:///d:/cache-anomalies/verifiers/sieve/sieve.go)) memodelkan semantik pointer 1:1 terhadap pseudocode C SIEVE:
 1. **Penyisipan (*insertion*):** Node baru dimasukkan ke `head` (elemen terbaru, `head.prev = None`) dengan `visited = False`.

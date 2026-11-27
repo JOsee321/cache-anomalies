@@ -80,6 +80,6 @@ python reproduce.py --full
 - [`sim/`](sim/) — Explicit doubly-linked list Python implementations (`SIEVE`, `SIEVE-BW`, `SIEVE-TP`, `FIFO`, `CLOCK`, `CLOCK2`, `SecondChance`, `S3-FIFO`, `LRU`) and unit tests.
 - [`verifiers/`](verifiers/) — Independent Go module (`sieve-verifier`) with DLL implementations, exact state-graph solvers, evolutionary trace searchers, and benchmark runners.
 - [`experiments/`](experiments/) — Python verification, cross-check, and vector SVG figure generation scripts.
-- [`results/`](results/) — JSON artifacts and stage-by-stage technical reports (`tahap1`–`tahap4`, `tahap5_symmetry.json`).
+- [`results/`](results/) — JSON artifacts, stage-by-stage technical reports (`tahap1`–`tahap4`, `tahap5_symmetry.json`), and direct [`libCacheSim` conformance audit](results/libcachesim_conformance.md) against upstream commit `4b66d97`.
 - [`figures/`](figures/) — Publication-ready monochrome vector SVGs (`fig1`–`fig3`).
 - [`paper/`](paper/) — Short conference paper with formal proofs ([`paper.md`](paper/paper.md) and [`main.tex`](paper/main.tex)).
