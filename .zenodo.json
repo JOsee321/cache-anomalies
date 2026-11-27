@@ -1,0 +1,24 @@
+{
+  "title": "Hand Starvation and Zombie Pinning in SIEVE: A Comparative Atlas of Unbounded Belady Anomalies in Modern Cache Policies",
+  "upload_type": "software",
+  "description": "Research artifact proving and cross-verifying an unbounded Belady anomaly (hand starvation / zombie pinning) in the SIEVE cache eviction algorithm (0% steady-state miss rate at capacity k vs. 100% at capacity C for all 3 <= k < C), establishing a sharp k=2 phase transition and structural separation against FIFO, CLOCK, 2-bit CLOCK, SecondChance, and S3-FIFO (including periodic multiple-of-10 S3-FIFO boundary spikes), audited 1:1 against 1a1a11a/libCacheSim commit 4b66d97, and evaluating O(1) zero-per-node-overhead mitigations SIEVE-TP and SIEVE-BW across Python and Go simulators.",
+  "creators": [
+    {
+      "name": "Wildan, Rafi",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "keywords": [
+    "cache eviction",
+    "SIEVE",
+    "S3-FIFO",
+    "Belady anomaly",
+    "hand starvation",
+    "zombie pinning",
+    "libCacheSim",
+    "computer systems"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "0.1.0"
+}

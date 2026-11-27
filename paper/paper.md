@@ -1,5 +1,8 @@
 # Hand Starvation and Zombie Pinning in SIEVE: A Comparative Atlas of Unbounded Belady Anomalies in Modern Cache Policies
 
+**Author:** Rafi Wildan (Independent Researcher)  
+**Date:** November 27, 2026
+
 ## Abstract
 
 SIEVE (Zhang et al., NSDI '24) achieves strong miss-ratio reductions over LRU and CLOCK using a single FIFO queue, one `visited` bit per object, and a roving eviction `hand` that preserves spatial locality near `head`. We identify and prove a structural pathology unique to SIEVE's decoupled insertion/eviction geometry: **hand starvation (zombie pinning)**. Whenever an eviction scan clears a block of older objects and stops ahead of them, subsequent misses at `head` can trap `hand` in a tight oscillation over just two active slots, permanently pinning $C - 2$ unvisited *zombie* objects in a cache of size $C$ indefinitely—even under background Zipf noise ($p = 1\%$) or continuous hits to the pinned zombies ($p = 25\%$).
