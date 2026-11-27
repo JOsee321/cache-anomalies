@@ -127,4 +127,4 @@ Our empirical benchmarks evaluate synthetic Zipf and Zipf+Scan traces rather tha
 
 ## Artifact Availability
 
-All Python reference simulators, independent Go verifiers, exact state-graph solvers, JSON experiment artifacts, SVG figure generators, and the one-command reproduction script (`python reproduce.py --quick`) are publicly available at <https://github.com/JOsee321/cache-anomalies>.
+All Python reference simulators, independent Go verifiers, exact state-graph solvers, JSON experiment artifacts, SVG figure generators, and the one-command reproduction script (`python reproduce.py --quick`) are publicly available at <https://github.com/JOsee321/cache-anomalies> and permanently archived on Zenodo at <https://doi.org/10.5281/zenodo.24588914>.

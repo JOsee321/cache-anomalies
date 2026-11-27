@@ -1,6 +1,6 @@
 # Hand Starvation & Zombie Pinning in SIEVE (Cache Anomalies Research)
 
-[![Verify Cache Anomalies Pipeline](https://github.com/JOsee321/cache-anomalies/actions/workflows/verify.yml/badge.svg)](https://github.com/JOsee321/cache-anomalies/actions/workflows/verify.yml)
+[![Verify Cache Anomalies Pipeline](https://github.com/JOsee321/cache-anomalies/actions/workflows/verify.yml/badge.svg)](https://github.com/JOsee321/cache-anomalies/actions/workflows/verify.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24588914.svg)](https://doi.org/10.5281/zenodo.24588914)
 
 Repository: <https://github.com/JOsee321/cache-anomalies>
 

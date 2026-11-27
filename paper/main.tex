@@ -107,4 +107,7 @@ TP($16C$) & 0.4989 & +0.0026 & +0.0138 & 16,001 & 2,129 / 1,709 \\
 
 Table~\ref{tab:atlas} confirms our structural separation: all five comparison policies avoid $0\%$ vs.\ $>0\%$ starvation, though S3-FIFO spikes to $1.6000\times$ at $(19,20)$, $2.0738\times$ at $(29,30)$, and $2.2727\times$ at $(39,40)$ where \texttt{Small} expands while \texttt{Main} stagnates. Under mixed traffic at $C=100$, SIEVE remains $100\%$ pinned under $1\%$ disjoint Zipf noise and $25\%$ zombie-hit traffic ($0.7493$ miss rate vs.\ $0.0042$ for \texttt{SIEVE-TP(C)}). Table~\ref{tab:pareto} maps the Pareto frontier: \texttt{SIEVE-TP} reduces average regression by $2.6\times$--$3.9\times$ over \texttt{SIEVE-BW} at matched fast-recovery budgets ($C..4C$), \texttt{SIEVE-TP(16C)} attains the lowest worst-case regression ($\max\Delta = +0.0138$) with $3.0\times$ faster ZHit recovery than \texttt{SIEVE-BW(16C)}, and \texttt{SIEVE-BW(16C)} beats vanilla SIEVE on average ($\Delta = -0.0040$).
 
+\section*{Artifact Availability}
+All Python reference simulators, independent Go verifiers, exact state-graph solvers, JSON experiment artifacts, SVG figure generators, and the reproduction pipeline (\texttt{python reproduce.py --quick}) are publicly available at \url{https://github.com/JOsee321/cache-anomalies} and permanently archived on Zenodo at \url{https://doi.org/10.5281/zenodo.24588914}.
+
 \end{document}
