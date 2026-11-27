@@ -1,0 +1,135 @@
+{
+  "num_cycles": 1000,
+  "grid_3_to_30": {
+    "total_pairs": 378,
+    "official_passed": 378,
+    "official_failures": [],
+    "variant_passed": 378,
+    "variant_failures": [],
+    "max_first_zero_k_cycle_official": 1
+  },
+  "extreme_official": [
+    {
+      "k": 3,
+      "C": 100,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 98,
+      "expected_zombie_count": 98,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 3,
+      "C": 500,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 498,
+      "expected_zombie_count": 498,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 3,
+      "C": 1000,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 998,
+      "expected_zombie_count": 998,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 10,
+      "C": 1000,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 998,
+      "expected_zombie_count": 998,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 500,
+      "C": 1000,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 998,
+      "expected_zombie_count": 998,
+      "zombies_never_evicted_in_cycles": true
+    }
+  ],
+  "extreme_variant": [
+    {
+      "k": 3,
+      "C": 100,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 98,
+      "expected_zombie_count": 98,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 3,
+      "C": 500,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 498,
+      "expected_zombie_count": 498,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 3,
+      "C": 1000,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 998,
+      "expected_zombie_count": 998,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 10,
+      "C": 1000,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 998,
+      "expected_zombie_count": 998,
+      "zombies_never_evicted_in_cycles": true
+    },
+    {
+      "k": 500,
+      "C": 1000,
+      "ok": true,
+      "first_zero_k_cycle": 1,
+      "steady_misses_k": 0,
+      "steady_misses_C": 2970,
+      "steady_accesses": 2970,
+      "pinned_zombie_count": 998,
+      "expected_zombie_count": 998,
+      "zombies_never_evicted_in_cycles": true
+    }
+  ]
+}
